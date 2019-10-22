@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Companion Website </title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <style>
+        body {
+    		font-family: 'Montserrat'; margin-left:30px;
+	     }
+	</style>
+
+    </head>
+    <body>
+	    <h1 style="color:brown;"> Speech-to-singing conversion in an Encoder-Decoder Framework </h1>
+		<a class="active" href="#code">Code </a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <a class="active" href="#samples">Audio Samples</a>  &emsp; &emsp; <!-- &emsp; &emsp; &emsp; &emsp; <a class="active" href="#paper">Paper</a> -->
+		<br> <br> <br>
+	
+	    <h2 style="color:brown;" id='code'> Code </h2>
+		Will be made public soon
+	    <br> <br>
+	    <h2 style="color:brown;" id='samples'> Audio Samples </h2>
+		The samples may not always run in Firefox, Chrome preferred
+        <h3 style="color:blue;"> Sample A </h3>
+        <table>
+            <tr> <td style="color:olive;"> Input speech: &emsp; &emsp; </td> <td> <audio controls>  <source src="upload_samples/H/inp_orig_0.wav" type="audio/wav"> Your browser does not support the audio element.
+  </audio> </td>  <td style="color:olive;"> &emsp; &emsp; &emsp; &emsp; Target melody: &emsp; &emsp; </td> <td> <audio controls>  <source src= "upload_samples/H/melody_0.mp3" type="audio/mp3">   </audio> </td> </tr>
+        </table>
+        <table>
+            <tr> <td style="color:brown;"> B1 (No Melody Prediction): &emsp; &emsp; </td> <td> <audio controls>  <source src= "upload_samples/H/pred_S2.wav" type="audio/wav">   </audio> </td> </tr>
+            <tr> <td style="color:brown;"> P-MSE Prediction: &emsp; &emsp; </td> <td> <audio controls>  <source src= "upload_samples/H/pred_S1.wav" type="audio/wav">   </audio> </td> </tr>
+			<tr> <td style="color:brown;"> P-MTL Prediction: &emsp; &emsp; </td> <td> <audio controls>  <source src= "upload_samples/H/pred_S0.wav" type="audio/wav">   </audio> </td> <td> Notice the better pronunciation of multiple consonants compared to P-MSE output</td> </tr>
+			
+        </table>
+    </body>
+</html>
